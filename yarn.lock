@@ -5077,18 +5077,14 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/sdk@npm:quickswap-sdk@3.0.8":
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/quickswap-sdk/-/quickswap-sdk-3.0.8.tgz#7fada995bb4e054212a0920de1f29977d617c997"
-  integrity sha512-1pMOS5/RC4K++RCrt3hrhSHDzzVzy40CiLgM8UbvdSVUuYMN5jZZVocbkG+5fRlJA1JqhKhs2OYYLh08t50KOw==
+"@uniswap/sdk@./quickswap-v2-sdk":
+  version "2.0.0"
   dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
+    "@ethersproject/address" "^5.0.0"
+    "@ethersproject/solidity" "^5.0.0"
+    "@uniswap/sdk-core" "^3.0.0-alpha.3"
     tiny-invariant "^1.1.0"
     tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@uniswap/token-lists@^1.0.0-beta.24":
   version "1.0.0-beta.27"
@@ -5104,11 +5100,6 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.0.tgz#e0fab91a7d53e8cafb5326ae4ca18351116b0844"
   integrity sha512-BJiXrBGnN8mti7saW49MXwxDBRFiWemGetE58q8zgfnPPzQKq55ADltEILqOt6VFZ22kVeVKbF8gVd8aY3l7pA==
-
-"@uniswap/v2-core@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
 "@uniswap/v2-periphery@^1.1.0-beta.0":
   version "1.1.0-beta.0"
@@ -13805,7 +13796,7 @@ js-yaml@^3.13.0, js-yaml@^3.13.1, js-yaml@^3.6.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbi@^3.1.1, jsbi@^3.1.4:
+jsbi@^3.1.4:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.5.tgz#b37bb90e0e5c2814c1c2a1bcd8c729888a2e37d6"
   integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
