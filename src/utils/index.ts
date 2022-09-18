@@ -2087,7 +2087,7 @@ export function getEarnedUSDDualFarm(stakingInfo: DualStakingInfo | undefined) {
 }
 
 export function isSupportedNetwork(ethereum: any) {
-  return Number(ethereum.chainId) === 137;
+  return Number(ethereum.chainId) === 80001;
 }
 
 export function getPageItemsToLoad(index: number, countsPerPage: number) {

@@ -13,7 +13,7 @@ import useENSName from 'hooks/useENSName';
 import { WalletModal } from 'components';
 import { useActiveWeb3React } from 'hooks';
 import QuickIcon from 'assets/images/quickIcon.svg';
-import QuickLogo from 'assets/images/quickLogo.png';
+import YeeldxLogo from 'assets/images/yeeldxLogo.jpeg';
 import { ReactComponent as ThreeDotIcon } from 'assets/images/ThreeDot.svg';
 import { ReactComponent as LightIcon } from 'assets/images/LightIcon.svg';
 import WalletIcon from 'assets/images/WalletIcon.png';
@@ -133,8 +133,8 @@ const Header: React.FC = () => {
       />
       <Link to='/'>
         <img
-          src={mobileWindowSize ? QuickIcon : QuickLogo}
-          alt='QuickLogo'
+          src={mobileWindowSize ? QuickIcon : YeeldxLogo}
+          alt='YeeldxLogo'
           height={60}
         />
       </Link>

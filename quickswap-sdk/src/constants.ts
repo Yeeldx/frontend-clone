@@ -20,7 +20,7 @@ export enum Rounding {
   ROUND_UP
 }
 
-export const FACTORY_ADDRESS = '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32' //TODO Need to change this. This address should be same for both testnet and mainnet
+export const FACTORY_ADDRESS = '0x173339dEFa8614d4b47e615e37E2fa3A5CDF7Fb8' //TODO Need to change this. This address should be same for both testnet and mainnet
 
 export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
 
