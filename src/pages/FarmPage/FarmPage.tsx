@@ -64,9 +64,9 @@ const FarmPage: React.FC = () => {
           <HelpIcon />
         </Box>
       </Box>
-      <Box maxWidth={isMobile ? '320px' : '1136px'} margin='0 auto 24px'>
+      {/* <Box maxWidth={isMobile ? '320px' : '1136px'} margin='0 auto 24px'>
         <AdsSlider sort='3' />
-      </Box>
+      </Box> */}
       <CustomSwitch
         width={300}
         height={48}
