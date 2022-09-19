@@ -1,5 +1,5 @@
 {
-  "name": "interface-v2",
+  "name": "interface",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
