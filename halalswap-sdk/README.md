@@ -1,4 +1,4 @@
-# QuickSwap SDK
+# HalalSwap SDK
 
 This repository has been forked from [UniswapV2](https://github.com/Uniswap/uniswap-sdk)
 
@@ -9,13 +9,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/QuickSwap/QuickSwap-sdk.git
+git clone https://github.com/Yeeldx/frontend-clone/tree/main/halalswap-sdk
 ```
 
-Move into the quickswap-sdk working directory
+Move into the halalswap-sdk working directory
 
 ```sh
-cd QuickSwap-sdk/
+cd halalswap-sdk/
 ```
 
 Install dependencies
