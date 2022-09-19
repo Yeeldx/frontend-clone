@@ -113,9 +113,9 @@ const SwapPage: React.FC = () => {
             <Box className='wrapper'>
               <SwapMain />
             </Box>
-            <Box maxWidth={isTiny ? '320px' : '352px'} margin='16px auto 0'>
+            {/* <Box maxWidth={isTiny ? '320px' : '352px'} margin='16px auto 0'>
               <AdsSlider sort='1' />
-            </Box>
+            </Box> */}
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={7}>
             <Box className='flex flex-wrap justify-between fullWidth'>
@@ -167,9 +167,9 @@ const SwapPage: React.FC = () => {
               </Box>
             </Box>
             <SwapMain />
-            <Box maxWidth={isTiny ? '320px' : '352px'} margin='16px auto 0'>
+            {/* <Box maxWidth={isTiny ? '320px' : '352px'} margin='16px auto 0'>
               <AdsSlider sort='1' />
-            </Box>
+            </Box> */}
           </Box>
           {infoPos === 'left' && (
             <Box
