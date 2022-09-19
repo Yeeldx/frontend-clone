@@ -2,7 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { TransactionResponse } from '@ethersproject/providers';
 import { Box, Button, CircularProgress } from '@material-ui/core';
 import { Trans, useTranslation } from 'react-i18next';
-import QUICKIcon from 'assets/images/quickIcon.svg';
+import YeeldxIcon from 'assets/images/yeeldxIcon.svg';
 import { ReactComponent as QUICKV2Icon } from 'assets/images/QUICKV2.svg';
 import { ArrowForward, ArrowDownward } from '@material-ui/icons';
 import {
@@ -135,7 +135,7 @@ const ConvertQUICKPage: React.FC = () => {
       <Box className='convertQUICKWrapper'>
         <Box className='flex items-center' mb={3}>
           <Box className='iconWrapper'>
-            <img src={QUICKIcon} alt='QUICK' />
+            <img src={YeeldxIcon} alt='QUICK' />
           </Box>
           <p className='weight-600'>QUICK(OLD)</p>
           <Box mx={1.5} className='convertArrow'>

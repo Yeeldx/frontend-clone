@@ -12,8 +12,8 @@ import { shortenAddress, addMaticToMetamask, isSupportedNetwork } from 'utils';
 import useENSName from 'hooks/useENSName';
 import { WalletModal } from 'components';
 import { useActiveWeb3React } from 'hooks';
-import QuickIcon from 'assets/images/quickIcon.svg';
-import YeeldxLogo from 'assets/images/yeeldxLogo.jpeg';
+import YeeldxIcon from 'assets/images/yeeldxIcon.svg';
+import YeeldxLogo from 'assets/images/yeeldxLogo.svg';
 import { ReactComponent as ThreeDotIcon } from 'assets/images/ThreeDot.svg';
 import { ReactComponent as LightIcon } from 'assets/images/LightIcon.svg';
 import WalletIcon from 'assets/images/WalletIcon.png';
@@ -133,7 +133,7 @@ const Header: React.FC = () => {
       />
       <Link to='/'>
         <img
-          src={mobileWindowSize ? QuickIcon : YeeldxLogo}
+          src={mobileWindowSize ? YeeldxIcon : YeeldxLogo}
           alt='YeeldxLogo'
           height={60}
         />
