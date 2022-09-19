@@ -22,7 +22,7 @@ export enum Rounding {
 
 export const FACTORY_ADDRESS = '0x173339dEFa8614d4b47e615e37E2fa3A5CDF7Fb8' //TODO Need to change this. This address should be same for both testnet and mainnet
 
-export const INIT_CODE_HASH = '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f'
+export const INIT_CODE_HASH = '0x7d058d5d7793e90c6628baacfb5194225ec55932c8ebc1f79c4b453de05bee63'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
