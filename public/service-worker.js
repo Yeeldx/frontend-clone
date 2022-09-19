@@ -22,7 +22,7 @@ self.addEventListener('activate', (event) => {
   
   console.log("new site service worker activate")
   self.registration.unregister().then(() => {
-    console.log('QUICKSWAP SW - unregistered old service worker');
+    console.log('HALALSWAP SW - unregistered old service worker');
 
     
   });

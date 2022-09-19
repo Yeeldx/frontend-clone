@@ -31,7 +31,7 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children, name }) => {
 
   useEffect(() => {
     if (
-      window.location.host !== 'quickswap.exchange' &&
+      window.location.host !== 'halalswap.exchange' &&
       window.location.host !== 'localhost:3000'
     ) {
       setOpenPassModal(true);
