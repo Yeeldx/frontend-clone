@@ -107,7 +107,7 @@
     "jpeg-js": "^0.4.4"
   },
   "scripts": {
-    "preinstall": "cd halalswap-sdk && npm install && tsdx build",
+    "prestart": "cd halalswap-sdk && npm install && tsdx build",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-app-rewired start",
     "build": "CI=false react-app-rewired --max_old_space_size=4096 build",
