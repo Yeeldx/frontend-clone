@@ -5077,8 +5077,9 @@
     tiny-invariant "^1.1.0"
     toformat "^2.0.0"
 
-"@uniswap/sdk@./halalswap-sdk":
-  version "3.0.8"
+"@uniswap/sdk@file:./halalswap-sdk/halalswap-sdk-1.0.0.tgz":
+  version "1.0.0"
+  resolved "file:./halalswap-sdk/halalswap-sdk-1.0.0.tgz#ffeb7fdb4332977ba3660c42c7766176a9cbf119"
   dependencies:
     "@uniswap/v2-core" "^1.0.0"
     big.js "^5.2.2"
