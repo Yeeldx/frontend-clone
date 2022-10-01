@@ -8,6 +8,7 @@ import { TokenAddressMap, useSelectedTokenList } from 'state/lists/hooks';
 import { getTokenFromAddress } from 'utils';
 import { useTokens } from 'hooks/Tokens';
 import { GlobalValue } from 'constants/index';
+import { useActiveWeb3React } from 'hooks';
 
 export class WrappedStakingInfo implements StakingBasic {
   public readonly stakingInfo: StakingRaw;
@@ -97,14 +98,14 @@ export function listToFarmMap(
 ): StakingInfoAddressMap {
   const result = farmCache?.get(list);
   if (result) return result;
-
   const map = list.active.concat(list.closed).reduce<StakingInfoAddressMap>(
     (stakingInfoMap, stakingInfo) => {
+      const { chainId } = useActiveWeb3React();
       const wrappedStakingInfo = new WrappedStakingInfo(
         stakingInfo,
         tokenAddressMap,
         farmTokens,
-        ChainId.MUMBAI,
+        chainId === undefined ? ChainId.MATIC : chainId,
       );
       if (
         stakingInfoMap[wrappedStakingInfo.chainId][
