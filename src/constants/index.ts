@@ -52,10 +52,10 @@ export const GlobalConst = {
       [ChainId.MUMBAI]: '0x950E66AA9cc01F6Dd1DE864cFb24aEf24F15d974',
     }, //'0x6207A65a8bbc87dD02C3109D2c74a6bCE4af1C8c';//
     ZERO_ADDRESS: '0x0000000000000000000000000000000000000000',
-    LAIR_ADDRESS: '0xf28164a485b0b2c90639e47b0f377b4a438a16b1',
-    NEW_LAIR_ADDRESS: '0x958d208Cdf087843e9AD98d23823d32E17d723A1',
-    QUICK_ADDRESS: '0xCA854b7D74F018530DA9a45b82C9d624A848d1ab',
-    NEW_QUICK_ADDRESS: '0xB5C064F955D8e7F38fE0460C556a72987494eE17',
+    LAIR_ADDRESS: '0xEA11a63e8f614A60B0c690bE506aa7B567705750',
+    NEW_LAIR_ADDRESS: '0xEA11a63e8f614A60B0c690bE506aa7B567705750',
+    QUICK_ADDRESS: '0x1e7f79e38466e0E7b420E114648140A4B3a0d379',
+    NEW_QUICK_ADDRESS: '0x1e7f79e38466e0E7b420E114648140A4B3a0d379',
     FACTORY_ADDRESS: '0xD1fA25ccAEe07323C2A3DbDbD5780363F8Cd34cD',
     GOVERNANCE_ADDRESS: '0x5e4be8Bc9637f0EAA1A755019e06A68ce081D58F', //TODO: MATIC
     MERKLE_DISTRIBUTOR_ADDRESS: {
@@ -427,7 +427,16 @@ export const GlobalData = {
         [WETH[ChainId.MATIC], GlobalValue.tokens.COMMON.ETHER],
         [GlobalValue.tokens.COMMON.ETHER, GlobalValue.tokens.COMMON.OLD_QUICK],
       ],
-      [ChainId.MUMBAI]: undefined,
+      [ChainId.MUMBAI]: [
+        [GlobalValue.tokens.COMMON.USDC, GlobalValue.tokens.COMMON.USDT],
+        [GlobalValue.tokens.COMMON.USDC, GlobalValue.tokens.COMMON.DAI],
+        [GlobalValue.tokens.COMMON.ETHER, GlobalValue.tokens.COMMON.USDC],
+        [GlobalValue.tokens.COMMON.WBTC, GlobalValue.tokens.COMMON.ETHER],
+        [WETH[ChainId.MATIC], GlobalValue.tokens.COMMON.USDT],
+        [WETH[ChainId.MATIC], GlobalValue.tokens.COMMON.USDC],
+        [WETH[ChainId.MATIC], GlobalValue.tokens.COMMON.ETHER],
+        [GlobalValue.tokens.COMMON.ETHER, GlobalValue.tokens.COMMON.OLD_QUICK],
+      ],
     },
   },
   analytics: {
