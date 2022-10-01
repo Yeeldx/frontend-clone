@@ -16,11 +16,11 @@ const Background: React.FC<{ fallback: boolean | undefined }> = ({
         src={HeroBkg}
         alt='Hero Background'
       />
-      <img
+      {/* <img
         className={showDefaultBG ? '' : 'hidden'}
         src={defaultHeroBkg}
         alt='Hero Background'
-      />
+      /> */}
     </Box>
   );
 };

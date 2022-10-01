@@ -73,17 +73,17 @@ const Header: React.FC = () => {
       text: t('dragonLair'),
       id: 'dragons-page-link',
     },
-    {
-      link: '/convert',
-      text: t('convert'),
-      id: 'convert-quick',
-    },
-    {
-      link: '/predictions',
-      text: 'Predictions',
-      id: 'predictions-page-link',
-      isNew: true,
-    },
+    // {
+    //   link: '/convert',
+    //   text: t('convert'),
+    //   id: 'convert-quick',
+    // },
+    // {
+    //   link: '/predictions',
+    //   text: 'Predictions',
+    //   id: 'predictions-page-link',
+    //   isNew: true,
+    // },
     // {
     //   link: '/lend',
     //   text: t('lend'),
@@ -94,6 +94,7 @@ const Header: React.FC = () => {
       link: '/analytics',
       text: t('analytics'),
       id: 'analytics-page-link',
+      isNew: false,
     },
   ];
 

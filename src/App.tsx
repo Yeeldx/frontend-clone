@@ -162,7 +162,7 @@ const App: React.FC = () => {
                           <DragonPage />
                         </PageLayout>
                       </Route>
-                      <Route exact path='/convert'>
+                      {/* <Route exact path='/convert'>
                         <PageLayout>
                           <ConvertQUICKPage />
                         </PageLayout>
@@ -171,7 +171,7 @@ const App: React.FC = () => {
                         <RedirectExternal
                           to={`${process.env.REACT_APP_PREDICTIONS_URL}`}
                         ></RedirectExternal>
-                      </Route>
+                      </Route> */}
                       <Route exact path='/analytics'>
                         <PageLayout>
                           <AnalyticsHeader />
