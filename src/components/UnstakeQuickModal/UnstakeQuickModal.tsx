@@ -47,7 +47,7 @@ const UnstakeQuickModal: React.FC<UnstakeQuickModalProps> = ({
         .leave(balance.toString(), { gasLimit: 300000 })
         .then(async (response: TransactionResponse) => {
           addTransaction(response, {
-            summary: `${t('unstake')} dQUICK`,
+            summary: `${t('unstake')} Yeeld`,
           });
           await response.wait();
           setAttempting(false);
@@ -63,7 +63,7 @@ const UnstakeQuickModal: React.FC<UnstakeQuickModalProps> = ({
     <CustomModal open={open} onClose={onClose}>
       <Box paddingX={3} paddingY={4}>
         <Box className='flex items-center justify-between'>
-          <h5>{t('unstake')} dQUICK</h5>
+          <h5>{t('unstake')} Yeeld</h5>
           <CloseIcon className='cursor-pointer' onClick={onClose} />
         </Box>
         <Box
@@ -73,7 +73,7 @@ const UnstakeQuickModal: React.FC<UnstakeQuickModalProps> = ({
           padding='16px'
         >
           <Box className='flex items-center justify-between'>
-            <small>dQUICK</small>
+            <small>Yeeld</small>
             <small>
               {t('balance')}: {formatTokenAmount(dQuickBalance)}
             </small>

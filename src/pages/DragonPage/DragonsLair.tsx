@@ -84,7 +84,7 @@ const DragonsLair: React.FC<{ isNew: boolean }> = ({ isNew }) => {
         </small>
         <CurrencyLogo currency={quickToken} />
         <small style={{ margin: '0 8px' }}>
-          {isQUICKRate ? QUICKtodQUICK.toLocaleString() : 1} dQUICK
+          {isQUICKRate ? QUICKtodQUICK.toLocaleString() : 1} Yeeld
         </small>
         <PriceExchangeIcon
           className='cursor-pointer'

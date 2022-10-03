@@ -73,7 +73,7 @@ const StakeQuickModal: React.FC<StakeQuickModalProps> = ({ open, onClose }) => {
           });
           const receipt = await response.wait();
           finalizedTransaction(receipt, {
-            summary: `${t('deposit')} dQUICK`,
+            summary: `${t('deposit')} Yeeld`,
           });
           setAttempting(false);
           setStakePercent(0);

@@ -72,7 +72,7 @@ export const TradingInfo: React.FC<{ globalData: any }> = ({ globalData }) => {
         ) : (
           <Skeleton variant='rect' width={100} height={45} />
         )}
-        <p>dQUICK {t('apy')}</p>
+        <p>Yeeld {t('apy')}</p>
         <h4 onClick={() => setOpenStakeModal(true)}>
           {t('stake')} {'>'}
         </h4>
