@@ -69,7 +69,7 @@ const StakeQuickModal: React.FC<StakeQuickModalProps> = ({ open, onClose }) => {
             },
           );
           addTransaction(response, {
-            summary: `${t('stake')} QUICK`,
+            summary: `${t('stake')} Yeeld`,
           });
           const receipt = await response.wait();
           finalizedTransaction(receipt, {
