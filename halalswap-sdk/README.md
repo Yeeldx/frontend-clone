@@ -1,4 +1,4 @@
-# HalalSwap SDK
+# Yeeldx SDK
 
 This repository has been forked from [UniswapV2](https://github.com/Uniswap/uniswap-sdk)
 
@@ -9,13 +9,13 @@ To run the tests, follow these steps. You must have at least node v10 and [yarn]
 First clone the repository:
 
 ```sh
-git clone https://github.com/Yeeldx/frontend-clone/tree/main/halalswap-sdk
+git clone https://github.com/Yeeldx/frontend-clone/tree/main/yeeldx-sdk
 ```
 
-Move into the halalswap-sdk working directory
+Move into the yeeldx-sdk working directory
 
 ```sh
-cd halalswap-sdk/
+cd yeeldx-sdk/
 ```
 
 Install dependencies

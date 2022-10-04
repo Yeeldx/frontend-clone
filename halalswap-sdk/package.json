@@ -1,16 +1,16 @@
 {
-  "name": "halalswap-sdk",
+  "name": "yeeldx-sdk",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "🛠 An SDK for building applications on top of Halalswap.",
+  "description": "🛠 An SDK for building applications on top of Yeeldx.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Yeeldx/frontend-clone/tree/main/halalswap-sdk",
+  "repository": "https://github.com/Yeeldx/frontend-clone/tree/main/yeeldx-sdk",
   "keywords": [
-    "halalswap",
+    "yeeldx",
     "matic",
     "ethereum"
   ],

@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
   return (
     <Box className='footer'>
       {/* <YeeldxIcon /> */}
-      <p>© {copyrightYear} HalalSwap.</p>
+      <p>© {copyrightYear} Yeeldx.</p>
     </Box>
   );
 };
