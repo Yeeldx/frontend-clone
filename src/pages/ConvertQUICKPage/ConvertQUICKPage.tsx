@@ -131,20 +131,20 @@ const ConvertQUICKPage: React.FC = () => {
 
   return (
     <Box width='100%' maxWidth={488} id='convertQUICKPage'>
-      <h4>{t('convert')} QUICK</h4>
+      <h4>{t('convert')} Yeeld</h4>
       <Box className='convertQUICKWrapper'>
         <Box className='flex items-center' mb={3}>
           <Box className='iconWrapper'>
             <img src={YeeldxIcon} alt='QUICK' />
           </Box>
-          <p className='weight-600'>QUICK(OLD)</p>
+          <p className='weight-600'>Yeeld(OLD)</p>
           <Box mx={1.5} className='convertArrow'>
             <ArrowForward />
           </Box>
           <Box className='iconWrapper'>
             <QUICKV2Icon />
           </Box>
-          <p className='weight-600'>QUICK(NEW)</p>
+          <p className='weight-600'>Yeeld(NEW)</p>
         </Box>
         <small className='text-secondary'>
           <Trans
@@ -162,8 +162,8 @@ const ConvertQUICKPage: React.FC = () => {
         </small>
         <Box className='conversionRate'>
           <span>
-            {t('conversionRate')}: 1 QUICK(OLD) ={' '}
-            {GlobalConst.utils.QUICK_CONVERSION_RATE} QUICK(NEW)
+            {t('conversionRate')}: 1 Yeeld(OLD) ={' '}
+            {GlobalConst.utils.QUICK_CONVERSION_RATE} Yeeld(NEW)
           </span>
         </Box>
         <Box mt={4} mb={2}>
@@ -214,11 +214,11 @@ const ConvertQUICKPage: React.FC = () => {
             >
               {t('max')}
             </Box>
-            <p className='weight-600'>QUICK(OLD)</p>
+            <p className='weight-600'>Yeeld(OLD)</p>
           </Box>
           {isInsufficientQUICK && (
             <small className='text-error'>
-              {t('insufficientBalance', { symbol: 'QUICK' })}
+              {t('insufficientBalance', { symbol: 'Yeeld' })}
             </small>
           )}
         </Box>
@@ -243,7 +243,7 @@ const ConvertQUICKPage: React.FC = () => {
                 setQUICKAmount(quickAmount);
               }}
             />
-            <p className='weight-600'>QUICK(NEW)</p>
+            <p className='weight-600'>Yeeld(NEW)</p>
           </Box>
         </Box>
         <Box className='flex justify-center'>

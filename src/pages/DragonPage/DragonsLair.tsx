@@ -46,12 +46,12 @@ const DragonsLair: React.FC<{ isNew: boolean }> = ({ isNew }) => {
       <Box display='flex'>
         <CurrencyLogo currency={quickToken} size='32px' />
         <Box ml={1.5}>
-          <p className='small line-height-1'>QUICK</p>
+          <p className='small line-height-1'>Yeeld</p>
           <span className='text-hint'>{t('stakeQUICKTitle')}</span>
         </Box>
       </Box>
       <Box className='dragonLairRow'>
-        <small>{t('total')} QUICK</small>
+        <small>{t('total')} Yeeld</small>
         <small>
           {lairInfoToUse
             ? lairInfoToUse.totalQuickBalance.toFixed(2, {
@@ -80,11 +80,11 @@ const DragonsLair: React.FC<{ isNew: boolean }> = ({ isNew }) => {
       <Box className='quickTodQuick border-secondary1'>
         <CurrencyLogo currency={quickToken} />
         <small style={{ margin: '0 8px' }}>
-          {isQUICKRate ? 1 : dQUICKtoQUICK.toLocaleString()} QUICK =
+          {isQUICKRate ? 1 : dQUICKtoQUICK.toLocaleString()} Yeeld =
         </small>
         <CurrencyLogo currency={quickToken} />
         <small style={{ margin: '0 8px' }}>
-          {isQUICKRate ? QUICKtodQUICK.toLocaleString() : 1} Yeeld
+          {isQUICKRate ? QUICKtodQUICK.toLocaleString() : 1} xYeeld
         </small>
         <PriceExchangeIcon
           className='cursor-pointer'
