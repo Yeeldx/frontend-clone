@@ -157,7 +157,7 @@ const App: React.FC = () => {
                           <FarmPage />
                         </PageLayout>
                       </Route>
-                      <Route exact path='/dragons'>
+                      <Route exact path='/shack'>
                         <PageLayout>
                           <DragonPage />
                         </PageLayout>

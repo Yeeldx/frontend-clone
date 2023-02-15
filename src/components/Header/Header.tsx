@@ -69,7 +69,7 @@ const Header: React.FC = () => {
       id: 'farm-page-link',
     },
     {
-      link: '/dragons',
+      link: '/shack',
       text: t('dragonLair'),
       id: 'dragons-page-link',
     },
