@@ -184,7 +184,7 @@ const LandingPage: React.FC = () => {
           ))}
         </Grid>
       </Box>
-      <Box className='communityContainer'>
+      {/* <Box className='communityContainer'>
         <Box className='featureHeading'>
           <h3>{t('joinCommunity')}</h3>
           <Box className='featureDivider' />
@@ -199,7 +199,7 @@ const LandingPage: React.FC = () => {
             </Box>
           ))}
         </Box>
-      </Box>
+      </Box> */}
     </div>
   );
 };
