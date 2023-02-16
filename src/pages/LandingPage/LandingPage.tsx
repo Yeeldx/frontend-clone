@@ -58,6 +58,16 @@ const LandingPage: React.FC = () => {
       desc: t('featureBuyFiatDesc'),
     },
     {
+      img: DragonsLair,
+      title: 'Vaults',
+      desc: 'Yeeld Vaults'
+    },
+    {
+      img: Rewards,
+      title: 'Docs',
+      desc: 'Vaults Docs'
+    },
+    {
       img: Analytics,
       title: t('analytics'),
       desc: t('featureAnalyticsDesc'),
