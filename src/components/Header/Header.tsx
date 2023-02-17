@@ -69,7 +69,7 @@ const Header: React.FC = () => {
       id: 'farm-page-link',
     },
     {
-      link: '/shack',
+      link: '/yeeldflow',
       text: t('dragonLair'),
       id: 'dragons-page-link',
       isNew: false,

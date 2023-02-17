@@ -157,7 +157,7 @@ const App: React.FC = () => {
                           <FarmPage />
                         </PageLayout>
                       </Route>
-                      <Route exact path='/shack'>
+                      <Route exact path='/yeeldflow'>
                         <PageLayout>
                           <DragonPage />
                         </PageLayout>
