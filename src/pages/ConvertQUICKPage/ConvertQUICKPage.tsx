@@ -137,14 +137,14 @@ const ConvertQUICKPage: React.FC = () => {
           <Box className='iconWrapper'>
             <img src={YeeldxIcon} alt='QUICK' />
           </Box>
-          <p className='weight-600'>Yeeld(OLD)</p>
+          <p className='weight-600'>Yeeld</p>
           <Box mx={1.5} className='convertArrow'>
             <ArrowForward />
           </Box>
           <Box className='iconWrapper'>
             <QUICKV2Icon />
           </Box>
-          <p className='weight-600'>Yeeld(NEW)</p>
+          <p className='weight-600'>Yeeld</p>
         </Box>
         <small className='text-secondary'>
           <Trans
@@ -162,8 +162,8 @@ const ConvertQUICKPage: React.FC = () => {
         </small>
         <Box className='conversionRate'>
           <span>
-            {t('conversionRate')}: 1 Yeeld(OLD) ={' '}
-            {GlobalConst.utils.QUICK_CONVERSION_RATE} Yeeld(NEW)
+            {t('conversionRate')}: 1 Yeeld ={' '}
+            {GlobalConst.utils.QUICK_CONVERSION_RATE} Yeeld
           </span>
         </Box>
         <Box mt={4} mb={2}>
@@ -214,7 +214,7 @@ const ConvertQUICKPage: React.FC = () => {
             >
               {t('max')}
             </Box>
-            <p className='weight-600'>Yeeld(OLD)</p>
+            <p className='weight-600'>Yeeld</p>
           </Box>
           {isInsufficientQUICK && (
             <small className='text-error'>
