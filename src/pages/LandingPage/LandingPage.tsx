@@ -71,8 +71,8 @@ const LandingPage: React.FC = () => {
     }, */
     {
       img: Analytics,
-      title: t('analytics'),
-      desc: t('featureAnalyticsDesc'),
+      title: 'YeeldBox',
+      desc: 'Yield Optimizing Vaults on Layer-2 chains.',
     },
   ];
 
