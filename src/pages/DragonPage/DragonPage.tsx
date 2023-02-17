@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTheme } from '@material-ui/core/styles';
 import { Box, Grid, useMediaQuery } from '@material-ui/core';
-import DragonBg1 from 'assets/images/DragonBg1.svg';
-import DragonBg2 from 'assets/images/DragonBg2.svg';
 import DragonLairMask from 'assets/images/DragonLairMask.svg';
 import DragonAlert from './DragonAlert';
 import DragonsLair from './DragonsLair';
@@ -29,9 +27,6 @@ const DragonPage: React.FC = () => {
         <Grid item xs={12} sm={12} md={4}>
           {showOld && (
             <Box className='dragonWrapper' mb='10px'>
-              <Box className='dragonBg'>
-                <img src={DragonBg2} alt='Dragon Lair' />
-              </Box>
               <img
                 src={DragonLairMask}
                 alt='Dragon Mask'
@@ -46,9 +41,6 @@ const DragonPage: React.FC = () => {
           )}
           {showNew && (
             <Box className='dragonWrapper'>
-              <Box className='dragonBg'>
-                <img src={DragonBg2} alt='Dragon Lair' />
-              </Box>
               <img
                 src={DragonLairMask}
                 alt='Dragon Mask'
@@ -67,9 +59,6 @@ const DragonPage: React.FC = () => {
         </Grid>
         <Grid item xs={12} sm={12} md={8}>
           <Box className='dragonWrapper'>
-            <Box className='dragonBg'>
-              <img src={isMobile ? DragonBg2 : DragonBg1} alt='Dragon Syrup' />
-            </Box>
             <Box className='dragonTitle'>
               <h5>{t('dragonSyrup')}</h5>
               <small>{t('dragonSyrupTitle')}</small>

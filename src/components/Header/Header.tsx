@@ -72,6 +72,7 @@ const Header: React.FC = () => {
       link: '/shack',
       text: t('dragonLair'),
       id: 'dragons-page-link',
+      isNew: false,
     },
     // {
     //   link: '/convert',
@@ -90,19 +91,23 @@ const Header: React.FC = () => {
     //   id: 'lend-page-link',
     //   isNew: true,
     // },
-    {
-      link: '/analytics',
-      text: t('analytics'),
-      id: 'analytics-page-link',
-      isNew: false,
-    },
+    // {
+    //   link: '/analytics',
+    //   text: t('analytics'),
+    //   id: 'analytics-page-link',
+    //   isNew: false,
+    // },
   ];
 
   const outLinks: any[] = [
-    // {
-    //   link: '/',
-    //   text: 'Governance',
-    // },
+    {
+      link: 'https://vaults.yeeldx.com/',
+      text: 'Vaults',
+    },
+    {
+      link: 'https://docs.yeeldx.com/',
+      text: 'Docs',
+    },
     // {
     //   link: '/',
     //   text: 'Docs',

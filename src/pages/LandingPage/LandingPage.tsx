@@ -6,7 +6,9 @@ import { useTranslation } from 'react-i18next';
 import Motif from 'assets/images/Motif.svg';
 import BuyWithFiat from 'assets/images/featured/BuywithFiat.svg';
 import Analytics from 'assets/images/featured/Analytics.svg';
-import DragonsLair from 'assets/images/featured/DragonsLair.svg';
+import Vault from 'assets/images/featured/Vault.svg';
+import YeeldxLogo from 'assets/images/featured/Yeeldx.svg';
+import Docs from 'assets/images/featured/Docs.svg';
 import ProvideLiquidity from 'assets/images/featured/ProvideLiquidity.svg';
 import Rewards from 'assets/images/featured/Rewards.svg';
 import FeaturedSwap from 'assets/images/featured/Swap.svg';
@@ -48,7 +50,7 @@ const LandingPage: React.FC = () => {
       desc: t('featureDepositDesc'),
     },
     {
-      img: DragonsLair,
+      img: YeeldxLogo,
       title: t('dragonLair'),
       desc: t('featureDragonDesc'),
     },
@@ -57,16 +59,16 @@ const LandingPage: React.FC = () => {
       title: t('buyWithFiat'),
       desc: t('featureBuyFiatDesc'),
     },
-    {
-      img: DragonsLair,
+    /* {
+      img: Vault,
       title: 'Vaults',
-      desc: 'Yeeld Vaults'
+      desc: 'Yeeld Vaults',
     },
     {
-      img: Rewards,
+      img: Docs,
       title: 'Docs',
-      desc: 'Vaults Docs'
-    },
+      desc: 'Vaults Docs',
+    }, */
     {
       img: Analytics,
       title: t('analytics'),
@@ -139,7 +141,7 @@ const LandingPage: React.FC = () => {
       <Box className='flex tradingInfo'>
         <TradingInfo globalData={globalData} />
       </Box>
-      <Box className='smallCommunityContainer'>
+      {/* <Box className='smallCommunityContainer'>
         {socialicons.map((val, ind) => (
           <a
             href={val.link}
@@ -152,7 +154,7 @@ const LandingPage: React.FC = () => {
             </Box>
           </a>
         ))}
-      </Box>
+      </Box> */}
       <Box mt={2} width={1}>
         <TopMovers />
       </Box>
