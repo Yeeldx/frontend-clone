@@ -31,7 +31,6 @@ export const HeroSection: React.FC<{ globalData: any }> = ({ globalData }) => {
           <Skeleton variant='rect' width={400} height={72} />
         </Box>
       )}
-      <h5>{t('topAssetExchange')}</h5>
       <Box mt={2} width={200} height={48}>
         <Button
           fullWidth
