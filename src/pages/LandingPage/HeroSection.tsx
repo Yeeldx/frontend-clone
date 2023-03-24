@@ -16,7 +16,7 @@ export const HeroSection: React.FC<{ globalData: any }> = ({ globalData }) => {
 
   return (
     <Box className='heroSection'>
-      <small className='text-bold'>{t('totalValueLocked')}</small>
+      {/* <small className='text-bold'>{t('totalValueLocked')}</small>
       {globalData ? (
         <Box display='flex' pt='5px'>
           <h3>$</h3>
@@ -30,7 +30,7 @@ export const HeroSection: React.FC<{ globalData: any }> = ({ globalData }) => {
         <Box my={1}>
           <Skeleton variant='rect' width={400} height={72} />
         </Box>
-      )}
+      )} */}
       <Box mt={2} width={200} height={48}>
         <Button
           fullWidth

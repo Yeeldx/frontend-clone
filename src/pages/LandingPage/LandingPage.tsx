@@ -138,9 +138,9 @@ const LandingPage: React.FC = () => {
       <Box margin={mobileWindowSize ? '64px 0' : '100px 0 80px'}>
         <HeroSection globalData={globalData} />
       </Box>
-      <Box className='flex tradingInfo'>
+      {/* <Box className='flex tradingInfo'>
         <TradingInfo globalData={globalData} />
-      </Box>
+      </Box> */}
       {/* <Box className='smallCommunityContainer'>
         {socialicons.map((val, ind) => (
           <a
