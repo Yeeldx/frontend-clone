@@ -8,7 +8,12 @@ import {
   useAllTransactions,
 } from 'state/transactions/hooks';
 import { TransactionDetails } from 'state/transactions/reducer';
-import { shortenAddress, addMaticToMetamask, isSupportedNetwork } from 'utils';
+import {
+  shortenAddress,
+  addMaticToMetamask,
+  isSupportedNetwork,
+  connectedNetwork,
+} from 'utils';
 import useENSName from 'hooks/useENSName';
 import { WalletModal } from 'components';
 import { useActiveWeb3React } from 'hooks';
@@ -250,9 +255,13 @@ const Header: React.FC = () => {
         </Box>
       )}
       <Box>
-        <Box className='headerIconWrapper'>
+        {/* <Box className='headerIconWrapper'>
           <Box className='styledPollingDot' />
           <LightIcon />
+        </Box> */}
+        <Box className='networkName'>
+          <Box className='styledPollingDot' />
+          <p style={{ fontSize: 11 }}>{connectedNetwork(ethereum)}</p>
         </Box>
         {account && (!ethereum || isSupportedNetwork(ethereum)) ? (
           <Box

@@ -185,6 +185,22 @@
     margin-left: 8px
   }
 }
+.networkName {
+  padding: 0 16px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & p {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  & img {
+    width: 10px;
+    margin-left: 2px
+  }
+}
 .connectButton {
   width: 152px;
   height: 36px;
@@ -262,6 +278,14 @@
 
 .headerIconWrapper {
   width: 45px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.headerNetworkWrapper {
   height: 36px;
   display: flex;
   justify-content: center;

@@ -2090,6 +2090,10 @@ export function isSupportedNetwork(ethereum: any) {
   return Number(ethereum.chainId) === 80001;
 }
 
+export function connectedNetwork(ethereum: any) {
+  return getNetworkNameFromChainId(ethereum.chainId);
+}
+
 export function getPageItemsToLoad(index: number, countsPerPage: number) {
   return index === 0 ? countsPerPage : countsPerPage * index;
 }
@@ -2097,6 +2101,29 @@ export function getPageItemsToLoad(index: number, countsPerPage: number) {
 export function getExactTokenAmount(amount?: TokenAmount | CurrencyAmount) {
   if (!amount) return 0;
   return Number(amount.toExact());
+}
+
+export function getNetworkNameFromChainId(chainId: any) {
+  switch (Number(chainId)) {
+    case 1:
+      return 'Ethereum';
+    case 80001:
+      return 'Mumbai Testnet';
+    case 56:
+      return 'BSC Mainnet';
+    case 137:
+      return 'Polygon Mainnet';
+    case 42161:
+      return 'Arbitrum One';
+    case 10:
+      return 'Optimism';
+    case 5:
+      return 'Goerli';
+    case 11155111:
+      return 'Sepolia';
+    default:
+      return 'Unknown Network';
+  }
 }
 
 // this is useful when the value has more digits than token decimals
