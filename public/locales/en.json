@@ -193,7 +193,7 @@
   "24hTradingVol1": "24h Trading Vol",
   "contractAddress": "Contract Address",
   "pools": "Pools",
-  "dragonAlertDesc": "As of May 2022, you can stake Yeeld(NEW) in YeeldFlow+ Pools. Note that there are some YeeldFlow+ Pools that will still accept Yeeld(OLD) for staking, until they run out of rewards.",
+  "comingSoonAlert": "Coming Soon...",
   "dragonLairTitle": "Stake Yeeld to earn Yeeld",
   "oldDragonLairTitle": "Withdraw and convert to new Yeeld",
   "newDragonLairTitle": "Withdraw your new Yeeld for now",

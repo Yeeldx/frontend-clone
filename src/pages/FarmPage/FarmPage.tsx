@@ -12,6 +12,8 @@ import 'pages/styles/farm.scss';
 import { useDefaultFarmList } from 'state/farms/hooks';
 import { useDefaultDualFarmList } from 'state/dualfarms/hooks';
 import { ChainId } from '@uniswap/sdk';
+import DragonAlert from 'pages/DragonPage/DragonAlert';
+import 'pages/styles/dragon.scss';
 
 const FarmPage: React.FC = () => {
   const { chainId } = useActiveWeb3React();
@@ -55,6 +57,13 @@ const FarmPage: React.FC = () => {
 
   return (
     <Box width='100%' mb={3} id='farmPage'>
+      {farmIndex === GlobalConst.farmIndex.DUALFARM_INDEX ? (
+        <Box width='100%' mb={3}>
+          <DragonAlert />
+        </Box>
+      ) : (
+        ''
+      )}
       <Box className='pageHeading'>
         <Box mr={2}>
           <h4>{t('farm')}</h4>

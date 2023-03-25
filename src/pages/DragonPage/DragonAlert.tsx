@@ -10,15 +10,15 @@ const DragonAlert: React.FC = () => {
   return (
     <>
       {openAlert && (
-        <Box className='dragonAlertWrapper bg-secondary2'>
+        <Box className='dragonAlertWrapper bg-info'>
           <AlertIcon />
-          <Box mx={2} width='calc(100% - 96px)'>
-            <p>{t('dragonAlertDesc')}</p>
+          <Box mx={2} width='calc(100% - 96px)' color='#FFFFFF'>
+            <p>{t('comingSoonAlert')}</p>
           </Box>
-          <CloseIcon
+          {/* <CloseIcon
             className='cursor-pointer'
             onClick={() => setOpenAlert(false)}
-          />
+          /> */}
         </Box>
       )}
     </>
